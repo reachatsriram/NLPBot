@@ -23,9 +23,10 @@ yum install openssl-devel
 yum install zlib-devel bzip2-devel sqlite sqlite-devel openssl-devel
 ```
 
-## For Ubuntu
+### For Ubuntu
 ```
 sudo apt-get install libssl-dev
+sudo apt-get install zlib1g-dev libbz2-dev libsqlite3-dev
 ```
 
 #### Configure and Compile as "ALTINSTALL" 
