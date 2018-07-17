@@ -289,6 +289,15 @@ True
 [nltk_data]   Unzipping corpora/stopwords.zip.
 ```
 
+###Ububtu version
+```
+nltk.download('punkt', download_dir='/home/user/nltk_data')
+
+nltk.download('averaged_perceptron_tagger', download_dir='/home/user/nltk_data')
+
+nltk.download('stopwords', download_dir='/home/user/nltk_data')
+```
+
 
 #### Validate Database Connectivity
 
